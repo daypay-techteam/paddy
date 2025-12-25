@@ -1,0 +1,77 @@
+### =========================
+### OS / IDE
+### =========================
+.DS_Store
+Thumbs.db
+
+.idea/
+*.iml
+.vscode/
+
+### =========================
+### Backend (Gradle / Java)
+### =========================
+backend/.gradle/
+backend/build/
+backend/out/
+
+### =========================
+### Frontend (Node / React / Angular / Vue)
+### =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/out/
+frontend/.cache/
+frontend/.env
+
+### =========================
+### Logs
+### =========================
+*.log
+logs/
+
+### =========================
+### Misc
+### =========================
+.env
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/.DS_Store
+frontend/dist
+frontend/dist-ssr
+frontend/coverage
+frontend/*.local
+
+# Editor directories and files
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+frontend/*.tsbuildinfo
+
+frontend/.eslintcache
+
+# Cypress
+frontend/cypress/videos/
+frontend/cypress/screenshots/
+
+# Vitest
+frontend/__screenshots__/
+
+frontend/test-results/
+frontend/playwright-report/
