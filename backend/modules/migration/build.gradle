@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation 'org.liquibase:liquibase-core:4.31.1'
+    runtimeOnly 'org.postgresql:postgresql:42.7.5'
+}
